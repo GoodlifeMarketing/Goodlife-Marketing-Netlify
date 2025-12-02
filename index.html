@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Goodlife Marketing | Premium Google Ads & E-commerce Scaling</title>
+    <meta name="description" content="High-end Google Ads agency voor winstgevende groei en schaalbaarheid." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'deep-indigo': '#050614', /* Deep Dark Blue/Purple Background */
+              'royal-violet': '#7A1FA2', /* Updated Purple Accent */
+              'tech-turquoise': '#1FC7C1', /* Updated Turquoise Accent */
+              'lavender-grey': '#F3F4F6',
+              'text-dark-primary': '#FFFFFF',
+              'text-dark-secondary': '#9CA3AF',
+              'text-light-primary': '#111827',
+              'text-light-secondary': '#4B5563',
+              'brand-orange': '#FF8A2A', /* Primary Orange */
+              'brand-yellow': '#FFC53D', /* Secondary Orange/Yellow */
+              'brand-magenta': '#C0009A', /* Primary Magenta/Purple */
+            },
+            backgroundImage: {
+              // Updated Gradient: Orange -> Magenta (90deg)
+              'gradient-cta': 'linear-gradient(90deg, #FF8A2A 0%, #C0009A 100%)',
+              'luxury-glow': 'radial-gradient(circle at center, rgba(255, 138, 42, 0.15) 0%, rgba(5, 6, 20, 1) 70%)',
+            },
+            fontFamily: {
+              sans: ['Manrope', 'sans-serif'],
+            },
+            animation: {
+              'infinite-scroll': 'infinite-scroll 25s linear infinite',
+              'fade-in': 'fadeIn 0.5s ease-out',
+              'fade-in-up': 'fadeInUp 0.7s ease-out',
+              'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            },
+            keyframes: {
+              'infinite-scroll': {
+                from: { transform: 'translateX(0)' },
+                to: { transform: 'translateX(-50%)' },
+              },
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              },
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+            }
+          }
+        }
+      }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Manrope', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #050614;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #333;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #7A1FA2;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "recharts": "https://aistudiocdn.com/recharts@^3.5.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
